@@ -1,0 +1,45 @@
+AI Agri Chatbot - Complete Project Structure
+ai-agri-chatbot/
+│
+├── app/                            # Backend Logic
+│   ├── __init__.py                 # Package initialization
+│   ├── main.py                     # Flask main app (your working app.py)
+│   ├── chatbot.py                  # Query handling & orchestration
+│   ├── translator.py               # Language detection & translation
+│   ├── answer_generator.py         # Gemini AI integration
+│   ├── config.py                   # Configuration management
+│   ├── utils.py                    # Helper functions
+│   └── models/                     # AI model configurations
+│       └── gemini_model.py         # Gemini model wrapper
+│
+├── webapp/                         # Frontend
+│   ├── static/                     # Static assets
+│   │   ├── css/
+│   │   │   └── style.css          # Enhanced styling
+│   │   ├── js/
+│   │   │   └── script.js          # Frontend logic
+│   │   └── assets/
+│   │       └── logo.png           # Project assets
+│   └── templates/
+│       └── index.html             # Main interface
+│
+├── data/                           # Data files
+│   ├── farming_knowledge.json     # Agricultural knowledge base
+│   ├── marathi_responses.json     # Marathi-specific responses
+│   └── logs/                      # Application logs
+│       └── chat_logs.json
+│
+├── requirements.txt               # Dependencies
+├── .env.example                   # Environment variables template
+├── .gitignore                     # Git ignore rules
+├── README.md                      # Documentation
+└── run.py                         # Application runner
+Key Features:
+✅ Bilingual support (English + Marathi)
+✅ Gemini AI integration
+✅ Clean modular architecture
+✅ Proper error handling
+✅ Logging system
+✅ Configuration management
+✅ Agricultural knowledge base
+✅ Modern responsive UI

@@ -1,0 +1,15 @@
+# API and Core
+flask>=3.0.0
+flask-cors>=4.0.0
+python-dotenv>=1.0.0
+requests>=2.31.0
+
+# Google Gemini AI
+google-generativeai>=0.7.0
+
+# Utilities
+tqdm>=4.65.0
+python-dotenv>=1.0.0
+
+# Logging
+colorama>=0.4.6
