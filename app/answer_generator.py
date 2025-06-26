@@ -22,7 +22,7 @@ class GeminiAnswerGenerator:
             api_key = Config.GEMINI_API_KEY
             if not api_key:
                 logger.warning("Using fallback API key for testing - NOT RECOMMENDED FOR PRODUCTION")
-                api_key = "AIzaSyCsUYtAP-WTpnyK1UEe7dUowUSfQPiBtx0"  # Temporary fallback
+                api_key = "YOUR_GEMINI_API_KEY"  # Temporary fallback
                 
             genai.configure(api_key=api_key)
             self.model = genai.GenerativeModel(Config.GEMINI_MODEL)
