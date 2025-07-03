@@ -18,11 +18,11 @@ class GeminiAnswerGenerator:
         """Initialize Gemini model with configuration"""
         try:
             Config.validate_config()
-            # Use environment variable or fallback (for testing only)
+            # Use environment variable only - no fallback
             api_key = Config.GEMINI_API_KEY
             if not api_key:
-                logger.warning("Using fallback API key for testing - NOT RECOMMENDED FOR PRODUCTION")
-                api_key = "AIzaSyCsUYtAP-WTpnyK1UEe7dUowUSfQPiBtx0"  # Temporary fallback
+                logger.error("No API key provided. Set GEMINI_API_KEY in environment variables or .env file")
+                raise ValueError("Missing API key for Gemini model")
                 
             genai.configure(api_key=api_key)
             self.model = genai.GenerativeModel(Config.GEMINI_MODEL)
@@ -59,7 +59,11 @@ class GeminiAnswerGenerator:
         """Generate AI response to user query"""
         try:
             if not self.model:
-                self._initialize_model()
+                try:
+                    self._initialize_model()
+                except ValueError as e:
+                    logger.error(f"Model initialization failed: {e}")
+                    return self._get_api_key_missing_message(language)
             
             # Create prompt
             prompt = self._create_enhanced_prompt(user_query, language)
@@ -112,6 +116,12 @@ class GeminiAnswerGenerator:
             
             return cleaned_response
             
+        except ValueError as e:
+            if "API key" in str(e):
+                logger.error(f"API key error: {e}")
+                return self._get_api_key_missing_message(language)
+            logger.error(f"Value error generating response: {e}")
+            return self._get_fallback_response(user_query, language)
         except Exception as e:
             logger.error(f"Error generating response: {e}")
             return self._get_fallback_response(user_query, language)
@@ -157,6 +167,14 @@ class GeminiAnswerGenerator:
         }
         
         return default_responses.get(language, default_responses['en'])
+    
+    def _get_api_key_missing_message(self, language: str) -> str:
+        """Return a user-friendly message when API key is missing"""
+        messages = {
+            'en': "The AI service is currently unavailable. The system administrator needs to set up the API key. Please contact support for assistance.",
+            'mr': "AI सेवा सध्या उपलब्ध नाही. सिस्टम प्रशासकाने API की सेट करणे आवश्यक आहे. कृपया मदतीसाठी सपोर्टशी संपर्क साधा."
+        }
+        return messages.get(language, messages['en'])
 
 # Global instance
 answer_generator = GeminiAnswerGenerator()

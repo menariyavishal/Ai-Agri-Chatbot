@@ -5,10 +5,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI Agri Chatbot - Smart Farming Assistant</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <meta name="description" content="AI-powered agricultural assistant providing farming advice, crop recommendations, and agricultural guidance.">
 </head>
 <body>
+    <script>
+        // Simple sidebar toggle functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const sidebarToggle = document.getElementById('sidebarToggle');
+            const sidebar = document.getElementById('sidebar');
+            const sidebarOverlay = document.getElementById('sidebarOverlay');
+            
+            if (sidebarToggle && sidebar) {
+                sidebarToggle.addEventListener('click', function() {
+                    sidebar.classList.toggle('active');
+                    if (sidebarOverlay) {
+                        if (sidebar.classList.contains('active')) {
+                            sidebarOverlay.style.visibility = 'visible';
+                            sidebarOverlay.style.opacity = '1';
+                        } else {
+                            sidebarOverlay.style.opacity = '0';
+                            setTimeout(() => {
+                                sidebarOverlay.style.visibility = 'hidden';
+                            }, 300);
+                        }
+                    }
+                });
+            }
+        });
+    </script>
+    <!-- Language Sidebar -->
+    <div class="sidebar-toggle" id="sidebarToggle" aria-label="Open settings menu" aria-expanded="false">
+        <i class="fas fa-cog"></i>
+    </div>
+    <div class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <h3>Settings</h3>
+            <button class="close-sidebar" id="closeSidebar" aria-label="Close settings menu">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="sidebar-content">
+            <div class="language-selector">
+                <label for="languageSelect">Select Language:</label>
+                <select id="languageSelect" aria-label="Select language">
+                    <option value="en">English</option>
+                    <option value="mr" selected>मराठी (Marathi)</option>
+                </select>
+                <div class="current-language">
+                    <i class="fas fa-check-circle"></i>
+                    <span id="currentLanguageDisplay">Current: मराठी (Marathi)</span>
+                </div>
+            </div>
+            
+            <!-- Recent Questions - Initially hidden -->
+            <div class="recent-questions" id="recentQuestions" style="display: none;">
+                <h4>Suggested Questions</h4>
+                <div class="collapsible-menu">
+                    <button class="collapsible" id="suggestedQuestionsToggle">
+                        <i class="fas fa-chevron-down"></i> 
+                        <span>Show Suggestions</span>
+                    </button>
+                    <div class="collapsible-content">
+                        <ul class="questions-list" id="questionsList">
+                            <!-- Questions will be added here dynamically -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Overlay for sidebar -->
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
+    
     <div class="container">
         <!-- Header -->
         <header class="header">
@@ -17,44 +88,41 @@
                     <i class="fas fa-seedling"></i>
                     <h1>AI Agri Assistant</h1>
                 </div>
-                <div class="language-selector">
-                    <select id="languageSelect">
-                        <option value="en">English</option>
-                        <option value="mr" selected>मराठी (Marathi)</option>
-                    </select>
-                </div>
             </div>
         </header>
 
         <!-- Main Chat Interface -->
         <main class="chat-container">
             <!-- Chat Messages Area -->
-            <div class="chat-messages" id="chatMessages">
-                <div class="message bot-message">
-                    <div class="message-avatar">
+            <div class="chat-messages" id="chatMessages" tabindex="0" aria-live="polite" role="log">
+                <div class="message bot-message" role="listitem">
+                    <div class="message-avatar" aria-hidden="true">
                         <i class="fas fa-robot"></i>
                     </div>
                     <div class="message-content">
-                        <p id="welcomeMessage">Welcome to AI Agri Assistant! I'm here to help you with farming questions, crop advice, and agricultural guidance. How can I assist you today?</p>
+                        <div class="content-text">
+                            <p id="welcomeMessage">Welcome to AI Agri Assistant! I'm here to help you with farming questions, crop advice, and agricultural guidance. How can I assist you today?</p>
+                        </div>
+                        <div class="message-timestamp">Just now</div>
                     </div>
                 </div>
             </div>
 
             <!-- Quick Action Buttons -->
             <div class="quick-actions">
-                <button class="quick-btn" data-query="What crops are best for current season?">
+                <button class="quick-btn" data-query="What crops are best for current season?" aria-label="Ask about seasonal crops">
                     <i class="fas fa-calendar-alt"></i>
                     <span id="seasonBtn">Seasonal Crops</span>
                 </button>
-                <button class="quick-btn" data-query="How to improve soil health?">
+                <button class="quick-btn" data-query="How to improve soil health?" aria-label="Ask about soil health">
                     <i class="fas fa-leaf"></i>
                     <span id="soilBtn">Soil Health</span>
                 </button>
-                <button class="quick-btn" data-query="Pest control methods">
+                <button class="quick-btn" data-query="Pest control methods for common crop diseases" aria-label="Ask about pest control">
                     <i class="fas fa-bug"></i>
                     <span id="pestBtn">Pest Control</span>
                 </button>
-                <button class="quick-btn" data-query="Weather impact on farming">
+                <button class="quick-btn" data-query="Weather impact on farming in Maharashtra" aria-label="Ask about weather tips">
                     <i class="fas fa-cloud-sun"></i>
                     <span id="weatherBtn">Weather Tips</span>
                 </button>
@@ -63,15 +131,15 @@
             <!-- Input Area -->
             <div class="input-container">
                 <div class="input-wrapper">
-                    <input type="text" id="userInput" placeholder="Ask me anything about farming..." maxlength="500">
-                    <button id="sendBtn" class="send-btn">
+                    <input type="text" id="userInput" placeholder="Ask me anything about farming..." maxlength="500" aria-label="Type your message">
+                    <button id="sendBtn" class="send-btn" aria-label="Send message">
                         <i class="fas fa-paper-plane"></i>
                     </button>
                 </div>
                 <div class="input-info">
                     <span class="char-count" id="charCount">0/500</span>
                     <span class="typing-indicator" id="typingIndicator" style="display: none;">
-                        <i class="fas fa-robot"></i> AI is thinking...
+                        <i class="fas fa-robot"></i> <span id="typingText">AI is thinking...</span>
                     </span>
                 </div>
             </div>
@@ -84,18 +152,29 @@
     </div>
 
     <!-- Loading Overlay -->
-    <div class="loading-overlay" id="loadingOverlay" style="display: none;">
+    <div class="loading-overlay" id="loadingOverlay" style="display: none;" aria-hidden="true">
         <div class="loading-spinner">
-            <i class="fas fa-seedling fa-spin"></i>
-            <p>Processing your query...</p>
+            <i class="fas fa-seedling"></i>
+            <p id="processingText">Processing your query...</p>
         </div>
     </div>
 
     <!-- Error Toast -->
-    <div class="error-toast" id="errorToast" style="display: none;">
+    <div class="error-toast" id="errorToast" style="display: none;" role="alert" aria-live="assertive">
         <i class="fas fa-exclamation-triangle"></i>
         <span id="errorMessage">Something went wrong. Please try again.</span>
-        <button class="close-toast" onclick="hideError()">×</button>
+        <button class="close-toast" onclick="hideError()" aria-label="Close error message">×</button>
+    </div>
+
+    <!-- Suggestions Panel (new addition) -->
+    <div class="suggestions-panel" id="suggestionsPanel" style="display: none;">
+        <div class="suggestions-header">
+            <span id="suggestionsTitle">Suggested questions</span>
+            <button class="close-suggestions" id="closeSuggestions" aria-label="Close suggestions">×</button>
+        </div>
+        <div class="suggestions-list" id="suggestionsList">
+            <!-- Suggestions will be dynamically added here -->
+        </div>
     </div>
 
     <script src="{{ url_for('static', filename='js/script.js') }}"></script>

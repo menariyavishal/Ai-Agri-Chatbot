@@ -630,3 +630,405 @@
 2025-06-26 13:46:17,370 - app.answer_generator - INFO - Generated response: Namaste!  Let's talk about government schemes for buffaloes and veterinary subsidies.  The specifics...
 2025-06-26 13:46:17,370 - app.utils - INFO - Chat API - Query processed successfully
 2025-06-26 13:46:17,371 - werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 13:46:17] "POST /api/chat HTTP/1.1" 200 -
+2025-06-26 15:16:57,030 - app.utils - INFO - AI Agriculture Chatbot v1.0.0 package initialized
+2025-06-26 15:16:58,715 - app.answer_generator - INFO - Gemini model gemini-1.5-flash initialized successfully
+2025-06-26 15:16:58,716 - app.chatbot - INFO - AgriChatbot initialized successfully
+2025-06-26 15:16:58,720 - app.utils - INFO - Initializing AI Agriculture Chatbot...
+2025-06-26 15:16:58,720 - app.utils - INFO - Environment: development
+2025-06-26 15:16:58,721 - app.utils - INFO - Debug mode: True
+2025-06-26 15:16:58,723 - app.utils - INFO - ==================================================
+2025-06-26 15:16:58,730 - app.utils - INFO - ==================================================
+2025-06-26 15:16:58,731 - app.utils - INFO - Version: 1.0.0
+2025-06-26 15:16:58,731 - app.utils - INFO - Environment: development
+2025-06-26 15:16:58,731 - app.utils - INFO - Debug Mode: True
+2025-06-26 15:16:58,731 - app.utils - INFO - Host: 0.0.0.0
+2025-06-26 15:16:58,731 - app.utils - INFO - Port: 5000
+2025-06-26 15:16:58,731 - app.utils - INFO - Model: gemini-1.5-flash
+2025-06-26 15:16:58,731 - app.utils - INFO - ==================================================
+2025-06-26 15:16:58,827 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.249.45:5000
+2025-06-26 15:16:58,828 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-26 15:16:58,835 - werkzeug - INFO -  * Restarting with stat
+2025-06-26 15:16:58,941 - app.utils - INFO - AI Agriculture Chatbot v1.0.0 package initialized
+2025-06-26 15:17:00,231 - app.answer_generator - INFO - Gemini model gemini-1.5-flash initialized successfully
+2025-06-26 15:17:00,231 - app.chatbot - INFO - AgriChatbot initialized successfully
+2025-06-26 15:17:00,233 - app.utils - INFO - Initializing AI Agriculture Chatbot...
+2025-06-26 15:17:00,233 - app.utils - INFO - Environment: development
+2025-06-26 15:17:00,233 - app.utils - INFO - Debug mode: True
+2025-06-26 15:17:00,236 - app.utils - INFO - ==================================================
+2025-06-26 15:17:00,239 - app.utils - INFO - ==================================================
+2025-06-26 15:17:00,239 - app.utils - INFO - Version: 1.0.0
+2025-06-26 15:17:00,239 - app.utils - INFO - Environment: development
+2025-06-26 15:17:00,239 - app.utils - INFO - Debug Mode: True
+2025-06-26 15:17:00,239 - app.utils - INFO - Host: 0.0.0.0
+2025-06-26 15:17:00,240 - app.utils - INFO - Port: 5000
+2025-06-26 15:17:00,240 - app.utils - INFO - Model: gemini-1.5-flash
+2025-06-26 15:17:00,240 - app.utils - INFO - ==================================================
+2025-06-26 15:17:00,267 - werkzeug - WARNING -  * Debugger is active!
+2025-06-26 15:17:00,272 - werkzeug - INFO -  * Debugger PIN: 988-043-849
+2025-06-26 15:17:07,522 - werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 15:17:07] "GET / HTTP/1.1" 200 -
+2025-06-26 15:17:07,588 - werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 15:17:07] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-26 15:17:07,646 - werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 15:17:07] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-06-26 15:17:08,238 - werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 15:17:08] "GET /api/welcome?lang=en&session_id=ae0f7066-da85-495c-ab85-3f4c84353b4f HTTP/1.1" 200 -
+2025-06-26 15:17:08,843 - werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 15:17:08] "GET /favicon.ico HTTP/1.1" 200 -
+2025-06-26 15:18:02,432 - app.answer_generator - INFO - Generated response: Hello there.  The weather in Maharashtra can be a real rollercoaster, impacting farming significantl...
+2025-06-26 15:18:02,433 - app.utils - INFO - Chat API - Query processed successfully
+2025-06-26 15:18:02,433 - werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 15:18:02] "POST /api/chat HTTP/1.1" 200 -
+2025-06-26 15:18:44,460 - app.utils - INFO - Chat API - Query processed successfully
+2025-06-26 15:18:44,461 - werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 15:18:44] "POST /api/chat HTTP/1.1" 200 -
+2025-06-26 15:18:53,245 - app.utils - INFO - Chat API - Query processed successfully
+2025-06-26 15:18:53,245 - werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 15:18:53] "POST /api/chat HTTP/1.1" 200 -
+2025-06-26 15:19:02,853 - app.utils - INFO - Chat API - Query processed successfully
+2025-06-26 15:19:02,853 - werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 15:19:02] "POST /api/chat HTTP/1.1" 200 -
+2025-06-26 15:19:16,579 - app.utils - INFO - Chat API - Query processed successfully
+2025-06-26 15:19:16,580 - werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 15:19:16] "POST /api/chat HTTP/1.1" 200 -
+2025-06-26 15:20:31,535 - app.answer_generator - INFO - Generated response: Namaste!  As an AI assistant for Maharashtra farmers, I'm happy to help you.  Growing a companion cr...
+2025-06-26 15:20:31,535 - app.utils - INFO - Chat API - Query processed successfully
+2025-06-26 15:20:31,536 - werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 15:20:31] "POST /api/chat HTTP/1.1" 200 -
+2025-06-26 15:21:13,106 - werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 15:21:13] "GET / HTTP/1.1" 200 -
+2025-06-26 15:21:13,141 - werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 15:21:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-06-26 15:21:13,143 - werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 15:21:13] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-06-26 15:21:13,205 - werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 15:21:13] "GET /api/welcome?lang=en&session_id=ae0f7066-da85-495c-ab85-3f4c84353b4f HTTP/1.1" 200 -
+2025-06-26 15:21:13,336 - werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 15:21:13] "GET /favicon.ico HTTP/1.1" 200 -
+2025-06-26 15:30:28,708 - app.utils - INFO - AI Agriculture Chatbot v1.0.0 package initialized
+2025-06-26 15:30:30,108 - app.answer_generator - INFO - Gemini model gemini-1.5-flash initialized successfully
+2025-06-26 15:30:30,108 - app.chatbot - INFO - AgriChatbot initialized successfully
+2025-06-26 15:30:30,112 - app.utils - INFO - Initializing AI Agriculture Chatbot...
+2025-06-26 15:30:30,112 - app.utils - INFO - Environment: development
+2025-06-26 15:30:30,112 - app.utils - INFO - Debug mode: True
+2025-06-26 15:30:30,114 - app.utils - INFO - ==================================================
+2025-06-26 15:30:30,119 - app.utils - INFO - ==================================================
+2025-06-26 15:30:30,119 - app.utils - INFO - Version: 1.0.0
+2025-06-26 15:30:30,119 - app.utils - INFO - Environment: development
+2025-06-26 15:30:30,119 - app.utils - INFO - Debug Mode: True
+2025-06-26 15:30:30,119 - app.utils - INFO - Host: 0.0.0.0
+2025-06-26 15:30:30,120 - app.utils - INFO - Port: 5000
+2025-06-26 15:30:30,120 - app.utils - INFO - Model: gemini-1.5-flash
+2025-06-26 15:30:30,120 - app.utils - INFO - ==================================================
+2025-06-26 15:30:30,164 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.249.45:5000
+2025-06-26 15:30:30,165 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-26 15:30:30,166 - werkzeug - INFO -  * Restarting with stat
+2025-06-26 15:30:30,241 - app.utils - INFO - AI Agriculture Chatbot v1.0.0 package initialized
+2025-06-26 15:30:31,263 - app.answer_generator - INFO - Gemini model gemini-1.5-flash initialized successfully
+2025-06-26 15:30:31,264 - app.chatbot - INFO - AgriChatbot initialized successfully
+2025-06-26 15:30:31,265 - app.utils - INFO - Initializing AI Agriculture Chatbot...
+2025-06-26 15:30:31,265 - app.utils - INFO - Environment: development
+2025-06-26 15:30:31,265 - app.utils - INFO - Debug mode: True
+2025-06-26 15:30:31,268 - app.utils - INFO - ==================================================
+2025-06-26 15:30:31,270 - app.utils - INFO - ==================================================
+2025-06-26 15:30:31,270 - app.utils - INFO - Version: 1.0.0
+2025-06-26 15:30:31,270 - app.utils - INFO - Environment: development
+2025-06-26 15:30:31,270 - app.utils - INFO - Debug Mode: True
+2025-06-26 15:30:31,271 - app.utils - INFO - Host: 0.0.0.0
+2025-06-26 15:30:31,271 - app.utils - INFO - Port: 5000
+2025-06-26 15:30:31,271 - app.utils - INFO - Model: gemini-1.5-flash
+2025-06-26 15:30:31,271 - app.utils - INFO - ==================================================
+2025-06-26 15:30:31,290 - werkzeug - WARNING -  * Debugger is active!
+2025-06-26 15:30:31,294 - werkzeug - INFO -  * Debugger PIN: 988-043-849
+2025-06-26 15:30:36,607 - werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 15:30:36] "GET / HTTP/1.1" 200 -
+2025-06-26 15:30:36,640 - werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 15:30:36] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-26 15:30:36,691 - werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 15:30:36] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-06-26 15:30:36,837 - werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 15:30:36] "GET /api/welcome?lang=en&session_id=ae0f7066-da85-495c-ab85-3f4c84353b4f HTTP/1.1" 200 -
+2025-06-26 15:30:36,852 - werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 15:30:36] "GET /favicon.ico HTTP/1.1" 200 -
+2025-06-26 15:35:11,316 - werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 15:35:11] "GET / HTTP/1.1" 200 -
+2025-06-26 15:35:11,370 - werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 15:35:11] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-26 15:35:11,411 - werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 15:35:11] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-06-26 15:35:11,998 - werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 15:35:11] "GET /api/welcome?lang=en&session_id=ae0f7066-da85-495c-ab85-3f4c84353b4f HTTP/1.1" 200 -
+2025-06-26 15:35:12,088 - werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 15:35:12] "GET /favicon.ico HTTP/1.1" 200 -
+2025-06-26 15:43:46,439 - werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 15:43:46] "GET / HTTP/1.1" 200 -
+2025-06-26 15:43:46,530 - werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 15:43:46] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-26 15:43:46,581 - werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 15:43:46] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-06-26 15:43:46,816 - werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 15:43:46] "GET /api/welcome?lang=mr&session_id=ae0f7066-da85-495c-ab85-3f4c84353b4f HTTP/1.1" 200 -
+2025-06-26 15:43:46,868 - werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 15:43:46] "GET /favicon.ico HTTP/1.1" 200 -
+2025-06-26 15:44:06,916 - app.utils - INFO - Chat API - Query processed successfully
+2025-06-26 15:44:06,917 - werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 15:44:06] "POST /api/chat HTTP/1.1" 200 -
+2025-06-26 15:44:41,929 - app.utils - INFO - Chat API - Query processed successfully
+2025-06-26 15:44:41,929 - werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 15:44:41] "POST /api/chat HTTP/1.1" 200 -
+2025-06-26 16:04:00,143 - werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 16:04:00] "GET / HTTP/1.1" 200 -
+2025-06-26 16:04:00,172 - werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 16:04:00] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-26 16:04:00,228 - werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 16:04:00] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-06-26 16:04:00,688 - werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 16:04:00] "GET /api/welcome?lang=mr&session_id= HTTP/1.1" 200 -
+2025-06-26 16:04:01,129 - werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 16:04:01] "GET /favicon.ico HTTP/1.1" 200 -
+2025-06-26 16:04:24,290 - app.utils - INFO - Chat API - Query processed successfully
+2025-06-26 16:04:24,290 - werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 16:04:24] "POST /api/chat HTTP/1.1" 200 -
+2025-06-26 16:04:31,196 - app.utils - INFO - Chat API - Query processed successfully
+2025-06-26 16:04:31,197 - werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 16:04:31] "POST /api/chat HTTP/1.1" 200 -
+2025-06-26 16:25:28,846 - app.utils - INFO - AI Agriculture Chatbot v1.0.0 package initialized
+2025-06-26 16:25:32,878 - app.answer_generator - INFO - Gemini model gemini-1.5-flash initialized successfully
+2025-06-26 16:25:32,879 - app.chatbot - INFO - AgriChatbot initialized successfully
+2025-06-26 16:25:32,881 - app.utils - INFO - Initializing AI Agriculture Chatbot...
+2025-06-26 16:25:32,881 - app.utils - INFO - Environment: development
+2025-06-26 16:25:32,882 - app.utils - INFO - Debug mode: True
+2025-06-26 16:25:32,884 - app.utils - INFO - ==================================================
+2025-06-26 16:25:32,920 - app.utils - INFO - ==================================================
+2025-06-26 16:25:32,920 - app.utils - INFO - Version: 1.0.0
+2025-06-26 16:25:32,921 - app.utils - INFO - Environment: development
+2025-06-26 16:25:32,921 - app.utils - INFO - Debug Mode: True
+2025-06-26 16:25:32,921 - app.utils - INFO - Host: 0.0.0.0
+2025-06-26 16:25:32,921 - app.utils - INFO - Port: 5000
+2025-06-26 16:25:32,921 - app.utils - INFO - Model: gemini-1.5-flash
+2025-06-26 16:25:32,921 - app.utils - INFO - ==================================================
+2025-06-26 16:25:33,013 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.249.45:5000
+2025-06-26 16:25:33,013 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-26 16:25:33,015 - werkzeug - INFO -  * Restarting with stat
+2025-06-26 16:25:33,095 - app.utils - INFO - AI Agriculture Chatbot v1.0.0 package initialized
+2025-06-26 16:25:34,136 - app.answer_generator - INFO - Gemini model gemini-1.5-flash initialized successfully
+2025-06-26 16:25:34,137 - app.chatbot - INFO - AgriChatbot initialized successfully
+2025-06-26 16:25:34,138 - app.utils - INFO - Initializing AI Agriculture Chatbot...
+2025-06-26 16:25:34,138 - app.utils - INFO - Environment: development
+2025-06-26 16:25:34,138 - app.utils - INFO - Debug mode: True
+2025-06-26 16:25:34,141 - app.utils - INFO - ==================================================
+2025-06-26 16:25:34,144 - app.utils - INFO - ==================================================
+2025-06-26 16:25:34,144 - app.utils - INFO - Version: 1.0.0
+2025-06-26 16:25:34,144 - app.utils - INFO - Environment: development
+2025-06-26 16:25:34,144 - app.utils - INFO - Debug Mode: True
+2025-06-26 16:25:34,144 - app.utils - INFO - Host: 0.0.0.0
+2025-06-26 16:25:34,145 - app.utils - INFO - Port: 5000
+2025-06-26 16:25:34,145 - app.utils - INFO - Model: gemini-1.5-flash
+2025-06-26 16:25:34,145 - app.utils - INFO - ==================================================
+2025-06-26 16:25:34,177 - werkzeug - WARNING -  * Debugger is active!
+2025-06-26 16:25:34,185 - werkzeug - INFO -  * Debugger PIN: 988-043-849
+2025-06-26 16:25:42,220 - werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 16:25:42] "GET / HTTP/1.1" 200 -
+2025-06-26 16:25:42,496 - werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 16:25:42] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-06-26 16:25:42,561 - werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 16:25:42] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-06-26 16:25:42,641 - werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 16:25:42] "GET /api/welcome?lang=mr&session_id=ae0f7066-da85-495c-ab85-3f4c84353b4f HTTP/1.1" 200 -
+2025-06-26 16:25:43,112 - werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 16:25:43] "GET /favicon.ico HTTP/1.1" 200 -
+2025-06-26 16:26:01,859 - app.utils - INFO - Chat API - Query processed successfully
+2025-06-26 16:26:01,861 - werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 16:26:01] "POST /api/chat HTTP/1.1" 200 -
+2025-06-26 16:26:53,779 - app.answer_generator - INFO - Generated response: Namaste!  Let's get you registered for the PM-KISAN scheme.  It's a good program to help our farmers...
+2025-06-26 16:26:53,780 - app.utils - INFO - Chat API - Query processed successfully
+2025-06-26 16:26:53,780 - werkzeug - INFO - 127.0.0.1 - - [26/Jun/2025 16:26:53] "POST /api/chat HTTP/1.1" 200 -
+2025-07-03 21:06:44,604 - app.utils - INFO - AI Agriculture Chatbot v1.0.0 package initialized
+2025-07-03 21:06:46,829 - app.answer_generator - INFO - Gemini model gemini-1.5-flash initialized successfully
+2025-07-03 21:06:46,829 - app.chatbot - INFO - AgriChatbot initialized successfully
+2025-07-03 21:06:46,831 - app.utils - INFO - Initializing AI Agriculture Chatbot...
+2025-07-03 21:06:46,831 - app.utils - INFO - Environment: development
+2025-07-03 21:06:46,831 - app.utils - INFO - Debug mode: True
+2025-07-03 21:06:46,833 - app.utils - INFO - ==================================================
+2025-07-03 21:06:46,873 - app.utils - INFO - ==================================================
+2025-07-03 21:06:46,873 - app.utils - INFO - Version: 1.0.0
+2025-07-03 21:06:46,873 - app.utils - INFO - Environment: development
+2025-07-03 21:06:46,873 - app.utils - INFO - Debug Mode: True
+2025-07-03 21:06:46,873 - app.utils - INFO - Host: 0.0.0.0
+2025-07-03 21:06:46,873 - app.utils - INFO - Port: 5000
+2025-07-03 21:06:46,873 - app.utils - INFO - Model: gemini-1.5-flash
+2025-07-03 21:06:46,874 - app.utils - INFO - ==================================================
+2025-07-03 21:06:46,975 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.162.45:5000
+2025-07-03 21:06:46,975 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-03 21:06:46,977 - werkzeug - INFO -  * Restarting with stat
+2025-07-03 21:06:47,058 - app.utils - INFO - AI Agriculture Chatbot v1.0.0 package initialized
+2025-07-03 21:06:48,055 - app.answer_generator - INFO - Gemini model gemini-1.5-flash initialized successfully
+2025-07-03 21:06:48,056 - app.chatbot - INFO - AgriChatbot initialized successfully
+2025-07-03 21:06:48,057 - app.utils - INFO - Initializing AI Agriculture Chatbot...
+2025-07-03 21:06:48,057 - app.utils - INFO - Environment: development
+2025-07-03 21:06:48,058 - app.utils - INFO - Debug mode: True
+2025-07-03 21:06:48,060 - app.utils - INFO - ==================================================
+2025-07-03 21:06:48,063 - app.utils - INFO - ==================================================
+2025-07-03 21:06:48,063 - app.utils - INFO - Version: 1.0.0
+2025-07-03 21:06:48,063 - app.utils - INFO - Environment: development
+2025-07-03 21:06:48,063 - app.utils - INFO - Debug Mode: True
+2025-07-03 21:06:48,063 - app.utils - INFO - Host: 0.0.0.0
+2025-07-03 21:06:48,063 - app.utils - INFO - Port: 5000
+2025-07-03 21:06:48,063 - app.utils - INFO - Model: gemini-1.5-flash
+2025-07-03 21:06:48,064 - app.utils - INFO - ==================================================
+2025-07-03 21:06:48,081 - werkzeug - WARNING -  * Debugger is active!
+2025-07-03 21:06:48,087 - werkzeug - INFO -  * Debugger PIN: 988-043-849
+2025-07-03 21:07:05,346 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2025 21:07:05] "GET / HTTP/1.1" 200 -
+2025-07-03 21:07:05,482 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2025 21:07:05] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-03 21:07:05,483 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2025 21:07:05] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-07-03 21:07:06,013 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2025 21:07:06] "GET /api/welcome?lang=mr&session_id=b363d9d7-5eeb-443c-a66e-6a09c59abf66 HTTP/1.1" 200 -
+2025-07-03 21:07:06,495 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2025 21:07:06] "GET /favicon.ico HTTP/1.1" 200 -
+2025-07-03 21:09:13,208 - app.utils - INFO - Chat API - Query processed successfully
+2025-07-03 21:09:13,210 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2025 21:09:13] "POST /api/chat HTTP/1.1" 200 -
+2025-07-03 21:09:44,913 - app.utils - INFO - Chat API - Query processed successfully
+2025-07-03 21:09:44,913 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2025 21:09:44] "POST /api/chat HTTP/1.1" 200 -
+2025-07-03 21:10:08,757 - app.utils - INFO - Chat API - Query processed successfully
+2025-07-03 21:10:08,757 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2025 21:10:08] "POST /api/chat HTTP/1.1" 200 -
+2025-07-03 21:10:27,475 - app.utils - INFO - Chat API - Query processed successfully
+2025-07-03 21:10:27,475 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2025 21:10:27] "POST /api/chat HTTP/1.1" 200 -
+2025-07-03 21:20:10,182 - app.utils - INFO - AI Agriculture Chatbot v1.0.0 package initialized
+2025-07-03 21:20:11,665 - app.answer_generator - INFO - Gemini model gemini-1.5-flash initialized successfully
+2025-07-03 21:20:11,665 - app.chatbot - INFO - AgriChatbot initialized successfully
+2025-07-03 21:20:11,667 - app.utils - INFO - Initializing AI Agriculture Chatbot...
+2025-07-03 21:20:11,668 - app.utils - INFO - Environment: development
+2025-07-03 21:20:11,668 - app.utils - INFO - Debug mode: True
+2025-07-03 21:20:11,670 - app.utils - INFO - ==================================================
+2025-07-03 21:20:11,675 - app.utils - INFO - ==================================================
+2025-07-03 21:20:11,675 - app.utils - INFO - Version: 1.0.0
+2025-07-03 21:20:11,675 - app.utils - INFO - Environment: development
+2025-07-03 21:20:11,675 - app.utils - INFO - Debug Mode: True
+2025-07-03 21:20:11,675 - app.utils - INFO - Host: 0.0.0.0
+2025-07-03 21:20:11,675 - app.utils - INFO - Port: 5000
+2025-07-03 21:20:11,675 - app.utils - INFO - Model: gemini-1.5-flash
+2025-07-03 21:20:11,676 - app.utils - INFO - ==================================================
+2025-07-03 21:20:11,723 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.162.45:5000
+2025-07-03 21:20:11,724 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-03 21:20:11,725 - werkzeug - INFO -  * Restarting with stat
+2025-07-03 21:20:11,798 - app.utils - INFO - AI Agriculture Chatbot v1.0.0 package initialized
+2025-07-03 21:20:12,775 - app.answer_generator - INFO - Gemini model gemini-1.5-flash initialized successfully
+2025-07-03 21:20:12,776 - app.chatbot - INFO - AgriChatbot initialized successfully
+2025-07-03 21:20:12,778 - app.utils - INFO - Initializing AI Agriculture Chatbot...
+2025-07-03 21:20:12,778 - app.utils - INFO - Environment: development
+2025-07-03 21:20:12,778 - app.utils - INFO - Debug mode: True
+2025-07-03 21:20:12,781 - app.utils - INFO - ==================================================
+2025-07-03 21:20:12,783 - app.utils - INFO - ==================================================
+2025-07-03 21:20:12,783 - app.utils - INFO - Version: 1.0.0
+2025-07-03 21:20:12,783 - app.utils - INFO - Environment: development
+2025-07-03 21:20:12,783 - app.utils - INFO - Debug Mode: True
+2025-07-03 21:20:12,783 - app.utils - INFO - Host: 0.0.0.0
+2025-07-03 21:20:12,784 - app.utils - INFO - Port: 5000
+2025-07-03 21:20:12,784 - app.utils - INFO - Model: gemini-1.5-flash
+2025-07-03 21:20:12,784 - app.utils - INFO - ==================================================
+2025-07-03 21:20:12,804 - werkzeug - WARNING -  * Debugger is active!
+2025-07-03 21:20:12,810 - werkzeug - INFO -  * Debugger PIN: 988-043-849
+2025-07-03 21:20:22,173 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2025 21:20:22] "GET / HTTP/1.1" 200 -
+2025-07-03 21:20:22,272 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2025 21:20:22] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-07-03 21:20:22,407 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2025 21:20:22] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-07-03 21:20:22,543 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2025 21:20:22] "GET /api/welcome?lang=mr&session_id=b363d9d7-5eeb-443c-a66e-6a09c59abf66 HTTP/1.1" 200 -
+2025-07-03 21:20:22,578 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2025 21:20:22] "GET /favicon.ico HTTP/1.1" 200 -
+2025-07-03 21:20:30,799 - app.answer_generator - ERROR - Error generating response: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-07-03 21:20:30,799 - app.utils - INFO - Chat API - Query processed successfully
+2025-07-03 21:20:30,800 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2025 21:20:30] "POST /api/chat HTTP/1.1" 200 -
+2025-07-03 21:20:40,103 - app.answer_generator - ERROR - Error generating response: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-07-03 21:20:40,104 - app.utils - INFO - Chat API - Query processed successfully
+2025-07-03 21:20:40,105 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2025 21:20:40] "POST /api/chat HTTP/1.1" 200 -
+2025-07-03 21:21:01,385 - app.answer_generator - ERROR - Error generating response: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-07-03 21:21:01,385 - app.utils - INFO - Chat API - Query processed successfully
+2025-07-03 21:21:01,386 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2025 21:21:01] "POST /api/chat HTTP/1.1" 200 -
+2025-07-03 21:22:19,908 - app.utils - INFO - Chat API - Query processed successfully
+2025-07-03 21:22:19,909 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2025 21:22:19] "POST /api/chat HTTP/1.1" 200 -
+2025-07-03 21:22:38,423 - app.utils - INFO - Chat API - Query processed successfully
+2025-07-03 21:22:38,424 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2025 21:22:38] "POST /api/chat HTTP/1.1" 200 -
+2025-07-03 21:23:55,360 - app.utils - INFO - AI Agriculture Chatbot v1.0.0 package initialized
+2025-07-03 21:23:56,417 - app.answer_generator - INFO - Gemini model gemini-1.5-flash initialized successfully
+2025-07-03 21:23:56,417 - app.chatbot - INFO - AgriChatbot initialized successfully
+2025-07-03 21:23:56,419 - app.utils - INFO - Initializing AI Agriculture Chatbot...
+2025-07-03 21:23:56,419 - app.utils - INFO - Environment: development
+2025-07-03 21:23:56,419 - app.utils - INFO - Debug mode: True
+2025-07-03 21:23:56,421 - app.utils - INFO - ==================================================
+2025-07-03 21:23:56,424 - app.utils - INFO - ==================================================
+2025-07-03 21:23:56,424 - app.utils - INFO - Version: 1.0.0
+2025-07-03 21:23:56,424 - app.utils - INFO - Environment: development
+2025-07-03 21:23:56,424 - app.utils - INFO - Debug Mode: True
+2025-07-03 21:23:56,425 - app.utils - INFO - Host: 0.0.0.0
+2025-07-03 21:23:56,425 - app.utils - INFO - Port: 5000
+2025-07-03 21:23:56,425 - app.utils - INFO - Model: gemini-1.5-flash
+2025-07-03 21:23:56,425 - app.utils - INFO - ==================================================
+2025-07-03 21:23:56,464 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.162.45:5000
+2025-07-03 21:23:56,464 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-03 21:23:56,466 - werkzeug - INFO -  * Restarting with stat
+2025-07-03 21:23:56,585 - app.utils - INFO - AI Agriculture Chatbot v1.0.0 package initialized
+2025-07-03 21:23:57,689 - app.answer_generator - INFO - Gemini model gemini-1.5-flash initialized successfully
+2025-07-03 21:23:57,689 - app.chatbot - INFO - AgriChatbot initialized successfully
+2025-07-03 21:23:57,691 - app.utils - INFO - Initializing AI Agriculture Chatbot...
+2025-07-03 21:23:57,691 - app.utils - INFO - Environment: development
+2025-07-03 21:23:57,691 - app.utils - INFO - Debug mode: True
+2025-07-03 21:23:57,694 - app.utils - INFO - ==================================================
+2025-07-03 21:23:57,697 - app.utils - INFO - ==================================================
+2025-07-03 21:23:57,697 - app.utils - INFO - Version: 1.0.0
+2025-07-03 21:23:57,697 - app.utils - INFO - Environment: development
+2025-07-03 21:23:57,697 - app.utils - INFO - Debug Mode: True
+2025-07-03 21:23:57,697 - app.utils - INFO - Host: 0.0.0.0
+2025-07-03 21:23:57,697 - app.utils - INFO - Port: 5000
+2025-07-03 21:23:57,698 - app.utils - INFO - Model: gemini-1.5-flash
+2025-07-03 21:23:57,698 - app.utils - INFO - ==================================================
+2025-07-03 21:23:57,719 - werkzeug - WARNING -  * Debugger is active!
+2025-07-03 21:23:57,723 - werkzeug - INFO -  * Debugger PIN: 988-043-849
+2025-07-03 21:24:27,715 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2025 21:24:27] "GET / HTTP/1.1" 200 -
+2025-07-03 21:24:27,769 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2025 21:24:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-07-03 21:24:27,770 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2025 21:24:27] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-07-03 21:24:27,956 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2025 21:24:27] "GET /api/welcome?lang=mr&session_id=b363d9d7-5eeb-443c-a66e-6a09c59abf66 HTTP/1.1" 200 -
+2025-07-03 21:24:28,034 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2025 21:24:28] "GET /favicon.ico HTTP/1.1" 200 -
+2025-07-03 21:24:38,731 - app.utils - INFO - Chat API - Query processed successfully
+2025-07-03 21:24:38,732 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2025 21:24:38] "POST /api/chat HTTP/1.1" 200 -
+2025-07-03 21:25:08,921 - app.utils - INFO - Chat API - Query processed successfully
+2025-07-03 21:25:08,922 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2025 21:25:08] "POST /api/chat HTTP/1.1" 200 -
+2025-07-03 21:43:47,263 - app.utils - INFO - AI Agriculture Chatbot v1.0.0 package initialized
+2025-07-03 21:43:48,513 - app.answer_generator - INFO - Gemini model gemini-1.5-flash initialized successfully
+2025-07-03 21:43:48,513 - app.chatbot - INFO - AgriChatbot initialized successfully
+2025-07-03 21:43:48,515 - app.utils - INFO - Initializing AI Agriculture Chatbot...
+2025-07-03 21:43:48,515 - app.utils - INFO - Environment: development
+2025-07-03 21:43:48,515 - app.utils - INFO - Debug mode: True
+2025-07-03 21:43:48,517 - app.utils - INFO - ==================================================
+2025-07-03 21:43:48,521 - app.utils - INFO - ==================================================
+2025-07-03 21:43:48,521 - app.utils - INFO - Version: 1.0.0
+2025-07-03 21:43:48,521 - app.utils - INFO - Environment: development
+2025-07-03 21:43:48,521 - app.utils - INFO - Debug Mode: True
+2025-07-03 21:43:48,521 - app.utils - INFO - Host: 0.0.0.0
+2025-07-03 21:43:48,521 - app.utils - INFO - Port: 5000
+2025-07-03 21:43:48,522 - app.utils - INFO - Model: gemini-1.5-flash
+2025-07-03 21:43:48,522 - app.utils - INFO - ==================================================
+2025-07-03 21:43:48,564 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.162.45:5000
+2025-07-03 21:43:48,564 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-03 21:43:48,566 - werkzeug - INFO -  * Restarting with stat
+2025-07-03 21:43:48,640 - app.utils - INFO - AI Agriculture Chatbot v1.0.0 package initialized
+2025-07-03 21:43:49,634 - app.answer_generator - INFO - Gemini model gemini-1.5-flash initialized successfully
+2025-07-03 21:43:49,634 - app.chatbot - INFO - AgriChatbot initialized successfully
+2025-07-03 21:43:49,636 - app.utils - INFO - Initializing AI Agriculture Chatbot...
+2025-07-03 21:43:49,636 - app.utils - INFO - Environment: development
+2025-07-03 21:43:49,636 - app.utils - INFO - Debug mode: True
+2025-07-03 21:43:49,638 - app.utils - INFO - ==================================================
+2025-07-03 21:43:49,641 - app.utils - INFO - ==================================================
+2025-07-03 21:43:49,641 - app.utils - INFO - Version: 1.0.0
+2025-07-03 21:43:49,641 - app.utils - INFO - Environment: development
+2025-07-03 21:43:49,641 - app.utils - INFO - Debug Mode: True
+2025-07-03 21:43:49,641 - app.utils - INFO - Host: 0.0.0.0
+2025-07-03 21:43:49,642 - app.utils - INFO - Port: 5000
+2025-07-03 21:43:49,642 - app.utils - INFO - Model: gemini-1.5-flash
+2025-07-03 21:43:49,642 - app.utils - INFO - ==================================================
+2025-07-03 21:43:49,658 - werkzeug - WARNING -  * Debugger is active!
+2025-07-03 21:43:49,661 - werkzeug - INFO -  * Debugger PIN: 988-043-849
+2025-07-03 21:44:28,379 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2025 21:44:28] "GET / HTTP/1.1" 200 -
+2025-07-03 21:44:28,432 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2025 21:44:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-07-03 21:44:28,432 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2025 21:44:28] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-07-03 21:44:28,627 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2025 21:44:28] "GET /api/welcome?lang=mr&session_id=b363d9d7-5eeb-443c-a66e-6a09c59abf66 HTTP/1.1" 200 -
+2025-07-03 21:44:28,683 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2025 21:44:28] "GET /favicon.ico HTTP/1.1" 200 -
+2025-07-03 21:44:42,219 - app.utils - INFO - Chat API - Query processed successfully
+2025-07-03 21:44:42,219 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2025 21:44:42] "POST /api/chat HTTP/1.1" 200 -
+2025-07-03 21:44:56,303 - app.answer_generator - INFO - Generated response: Namaste!  Improving soil health is like taking care of a good friend – it takes time, patience, and ...
+2025-07-03 21:44:56,305 - app.utils - INFO - Chat API - Query processed successfully
+2025-07-03 21:44:56,305 - werkzeug - INFO - 127.0.0.1 - - [03/Jul/2025 21:44:56] "POST /api/chat HTTP/1.1" 200 -
